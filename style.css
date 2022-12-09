@@ -1,0 +1,300 @@
+
+ul,ol,li{
+    margin: 0;
+    padding: 0;
+}
+.header-menu{
+background-color: black;
+height:;
+}.mainul{
+text-align: center;
+}
+.mainul li{
+display:inline-block;
+position: relative;
+list-style:none ;
+
+}
+.mainul > li:hover{
+background-color:#007acc;
+}
+
+.mainul li a{
+text-decoration: none;
+padding:20px 15px ;
+color: white;
+display:inline-block;
+}
+
+.mainul li .mainui{
+position: absolute;
+top:100% ;
+left:2px ;
+width:200px ;
+background-color: black;
+border-top:1px solid white;
+text-align: left;
+opacity: 0;
+visibility: hidden;
+transition: 1s;
+}
+.mainul li:hover>.mainui{
+opacity: 1;
+visibility: visible;
+}
+
+.mainul li .mainui li {
+display:block;
+}
+.mainul li .mainui li a{
+display:block;
+padding: 20px 30px;
+transition:8s ;
+border-bottom:1px solid white;
+
+}
+.mainul li .mainui .submanu{
+position: absolute;
+top:-1px;
+left:200px;
+width:200px ;
+background-color: black;
+border-top:1px solid white;
+text-align: left;
+opacity: 0;
+visibility: hidden;
+transition: 1s;
+}
+.mainul li .mainui .submanu li{
+display: block;
+}
+.mainul li .mainui .submanu li a{
+display:block;
+padding: 20px 30px; 
+}
+.mainui li:hover {
+background-color:#007acc ;
+}
+.submanu li:hover  {
+background-color:#007acc !important;
+}
+
+.mainul li .mainui li:hover .submanu {
+opacity: 1;
+visibility: visible;
+}
+
+.banner{
+        background-image: url("https://i.ibb.co/Mh74xZB/young-mens.jpg");
+        background-position:center ;
+        background-repeat:no-repeat ;
+        background-size:cover ;
+        background-attachment:scroll;
+        width:100%;
+        height:900px;
+        position: relative;
+    }
+    h1{
+        text-align: center;
+        background-color:white ;
+        color: black;
+        width: 200px;
+        height: 50px;
+        padding-top:10px ;
+        margin:auto;
+        position: absolute;
+        top:220px;
+        left:580px;
+    }
+
+    h6{
+        background-color: white;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        padding-left:400px;
+        padding-right:400px ;
+        margin-top:10px ;
+        position: absolute;
+        top:280px;
+        left:234px;
+    
+    }
+    p{
+        background-color: red;
+        color: white;
+        padding-top:10px ;
+        text-align: center;
+        width: 100px;
+        height:30px ;
+        margin: auto;
+        margin-top:20px ;
+        position: absolute;
+        top:320px;
+        left:630px;
+    }
+    .list{
+        background-color:white;
+        width:100% ;
+        height:700px ;
+        border: 1px solid rgb(136, 130, 130);
+    }
+    h2{
+        font-size:40px ;
+        color: black;
+    }
+
+
+    .part{
+        text-align:center;
+    }
+    .part a{
+        color: black;
+        text-decoration: none;
+        padding:30px ;
+      
+    }
+    .part ul{
+        padding-top:20px ;
+        padding-bottom:20px ;
+       
+    }
+    
+    .form{
+        text-align: center;
+        padding-top:30px ;
+        background-color:#f2f2f2 ;
+        padding:40px ;
+        margin-top:10px ;
+
+    }.one{
+        width:400px ;
+        padding: 12px;
+        box-shadow:1px 0 0 1px red;
+       
+    }
+    .two{
+        width:100px;
+        background-color: red;
+        color: white;
+        height: 25px;
+        border: none;
+        padding:10px ;
+         margin-left:-2px;
+        
+
+    }
+    .type{
+        background-color:#ffffff ;
+        border:1px dotted #d8d3d3 ;
+        width: 100%;
+        height: 400px;
+        margin-top: 15px;
+    }
+    .type a{
+        text-decoration: none;
+        line-height:25px ;
+    
+        
+    }
+        h3{
+            text-align: center;
+            padding-top:30px ;
+            font-size:30px ;
+            color: black;
+     }
+     .typ{
+        position: relative;
+     }
+     .typ ul{
+        width:500px ;
+        height: 100px;
+        position: absolute;
+        top:40px;
+        left:60px;
+     }
+
+      .d{
+      
+        position: relative;
+     }
+
+     .d ul{
+        width:500px ;
+        height: 100px;
+        position: absolute;
+        top:40px;
+        left:530px;
+     }
+    
+     .a {
+      
+        position: relative;
+     }
+   
+     .a ul {
+        width:500px ;
+        height: 100px;
+        position: absolute;
+        top:40px;
+        left:950px;
+     }
+     .footer{
+        background-color: black;
+        color:white ;
+        text-align: center;
+        padding: 20px;
+     }
+     .footer ul{
+        text-align: center;
+        display: inline-block;
+        padding-top:30px;
+        font-size: 50px;
+        width: 100%;
+        height: 100px;
+        padding-bottom: 40px;
+    }
+   .footer ul li{
+        display: inline-block;
+        padding-bottom: 20px;
+    }
+    .footer ul li a{
+            text-decoration: none;
+            background-color:#5ea5fa;
+            color:#0d0e0f;
+            display: inline-block;
+            margin-left: -14px;
+            padding:30px;
+            border-radius:50% ;
+            width:50px ;
+            height: 50px;
+            margin-left:15px ;
+            transition: all 3s;
+    
+    }
+    .footer ul li:hover a{
+        background-color: blanchedalmond;
+        color: black;
+        cursor: pointer;
+    }
+
+    .typ ul li{
+        list-style-type:lower-roman !important;
+    }
+    .d ul{
+        list-style-type:disc !important;
+    }
+
+    .a ul{
+        list-style-type:circle !important;
+    }
+
+    .style1 ul{
+        list-style-type:circle !important;
+    }
+
+
+
+
+    
+
